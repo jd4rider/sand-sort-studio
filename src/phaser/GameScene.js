@@ -512,6 +512,11 @@ export default class GameScene extends Phaser.Scene {
     }
     await this.tween({ targets: bxF.cont, x: bxF.x, y: bxF.y, angle: 0, duration: 240, ease: 'Cubic.InOut' })
     bxF.cont.setDepth(5)
+    newUnits.forEach((r) => {
+      if (r.dot) this.tweens.killTweensOf(r.dot)
+      r.img.destroy()
+      r.dot?.destroy()
+    })
   }
 
   sealFx(ci) {
