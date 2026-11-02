@@ -1,7 +1,7 @@
 {
   "name": "sand-sort-studio",
   "private": true,
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Pour coloured sand between flasks until every one holds a single colour.",
   "author": "jd4rider",
   "type": "module",
