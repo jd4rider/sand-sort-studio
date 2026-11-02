@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sand Sort Studio — a sand-sorting puzzle game</title>
+<meta name="description" content="Pour coloured sand until every flask is one colour. Play free in your browser or download Sand Sort Studio for macOS, Windows and Linux." />
+<link rel="icon" href="./icon.png" />
+<style>
+  body{margin:0;min-height:100vh;display:grid;place-items:center;text-align:center;color:#f5f3ff;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;background:radial-gradient(circle at 50% 0%,#b45309,#451a03 45%,#1a0e04)}
+  main{max-width:560px;padding:24px}
+  img{width:128px;height:128px;border-radius:28px;box-shadow:0 12px 40px #0008}
+  h1{font-size:52px;margin:16px 0 8px;background:linear-gradient(90deg,#fde68a,#fff7ed,#fbbf24,#fcd34d);-webkit-background-clip:text;background-clip:text;color:transparent}
+  p{opacity:.85;line-height:1.5}
+  .row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin:18px 0}
+  a.btn{color:#fff;text-decoration:none;font-weight:600;padding:12px 22px;border-radius:12px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2)}
+  a.btn:hover{background:rgba(255,255,255,.18)}
+  a.primary{background:linear-gradient(135deg,#f59e0b,#b45309);border:none;font-size:20px;padding:14px 40px}
+  small{opacity:.6}
+</style>
+</head>
+<body>
+<main>
+  <img src="./icon.png" alt="Sand Sort Studio icon" />
+  <h1>Sand Sort Studio</h1>
+  <p>Pour coloured sand between flasks until each holds one colour. 60 levels across 5 worlds with twin flasks, padlocked tubes and colour-changing sand, plus a Rush mode.</p>
+  <div class="row"><a class="btn primary" href="./play/">Play in your browser</a></div>
+  <p>Or download the app:</p>
+  <div class="row">
+    <a class="btn" href="https://github.com/jd4rider/sand-sort-studio/releases/latest/download/Sand-Sort-Studio-mac-arm64.dmg">macOS (Apple Silicon)</a>
+    <a class="btn" href="https://github.com/jd4rider/sand-sort-studio/releases/latest/download/Sand-Sort-Studio-mac-x64.dmg">macOS (Intel)</a>
+    <a class="btn" href="https://github.com/jd4rider/sand-sort-studio/releases/latest/download/Sand-Sort-Studio-win-setup.exe">Windows</a>
+    <a class="btn" href="https://github.com/jd4rider/sand-sort-studio/releases/latest/download/Sand-Sort-Studio-linux-x86_64.AppImage">Linux (AppImage)</a>
+  </div>
+  <small>Installers are unsigned: on macOS right-click → Open the first time; on Windows choose "More info → Run anyway". · <a href="https://github.com/jd4rider/sand-sort-studio" style="color:inherit">Source</a></small>
+</main>
+</body>
+</html>
